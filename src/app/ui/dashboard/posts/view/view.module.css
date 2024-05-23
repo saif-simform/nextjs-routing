@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+.formContainer {
+  background-color: var(--bgSoft);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.comment {
+  padding: 12px 24px;
+  background-color: #45260a;
+  color: var(--text);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.comment:hover,
+.comment:active {
+  background-color: #fff;
+  color: #555;
+}
